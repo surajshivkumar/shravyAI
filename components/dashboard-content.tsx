@@ -1,12 +1,26 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { BarChart3, Bot, Phone, Plus, Target, TrendingUp, Users } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { SidebarTrigger } from "@/components/ui/sidebar"
-
+import { useState } from "react";
+import {
+  BarChart3,
+  Bot,
+  Phone,
+  Plus,
+  Target,
+  TrendingUp,
+  Users,
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { SidebarTrigger } from "@/components/ui/sidebar";
+import { useRouter } from "next/navigation";
 const statsData = [
   {
     title: "Active Campaigns",
@@ -36,7 +50,7 @@ const statsData = [
     icon: Bot,
     color: "text-purple-500",
   },
-]
+];
 
 const campaignData = [
   {
@@ -79,10 +93,14 @@ const campaignData = [
     lastRun: "Never",
     variant: "A/B Testing",
   },
-]
+];
 
 export function DashboardContent() {
-  const [selectedTimeframe, setSelectedTimeframe] = useState("7d")
+  const [selectedTimeframe, setSelectedTimeframe] = useState("7d");
+  const router = useRouter();
+  const handleNewCampaign = async (e) => {
+    router.push("/dashboard/campaigns/new");
+  };
 
   return (
     <div className="flex-1 space-y-6 p-6">
@@ -92,7 +110,9 @@ export function DashboardContent() {
           <SidebarTrigger />
           <div>
             <h1 className="text-3xl font-bold text-white">Dashboard</h1>
-            <p className="text-gray-400">Welcome back! Here's what's happening with your voice campaigns.</p>
+            <p className="text-gray-400">
+              Welcome back! Here's what's happening with your voice campaigns.
+            </p>
           </div>
         </div>
         <div className="flex items-center gap-3">
@@ -100,7 +120,9 @@ export function DashboardContent() {
             {["24h", "7d", "30d", "90d"].map((timeframe) => (
               <Button
                 key={timeframe}
-                variant={selectedTimeframe === timeframe ? "default" : "outline"}
+                variant={
+                  selectedTimeframe === timeframe ? "default" : "outline"
+                }
                 size="sm"
                 onClick={() => setSelectedTimeframe(timeframe)}
                 className={
@@ -123,9 +145,14 @@ export function DashboardContent() {
       {/* Stats Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {statsData.map((stat, index) => (
-          <Card key={index} className="bg-gray-900/80 backdrop-blur-sm border-gray-800/50">
+          <Card
+            key={index}
+            className="bg-gray-900/80 backdrop-blur-sm border-gray-800/50"
+          >
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium text-gray-300">{stat.title}</CardTitle>
+              <CardTitle className="text-sm font-medium text-gray-300">
+                {stat.title}
+              </CardTitle>
               <stat.icon className={`h-4 w-4 ${stat.color}`} />
             </CardHeader>
             <CardContent>
@@ -140,7 +167,10 @@ export function DashboardContent() {
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <h2 className="text-xl font-semibold text-white">Recent Campaigns</h2>
-          <Button variant="outline" className="border-gray-700 text-gray-300 hover:bg-gray-800">
+          <Button
+            variant="outline"
+            className="border-gray-700 text-gray-300 hover:bg-gray-800"
+          >
             View All
           </Button>
         </div>
@@ -156,14 +186,18 @@ export function DashboardContent() {
                   <CardTitle className="text-white">{campaign.name}</CardTitle>
                   <Badge
                     variant={
-                      campaign.status === "Active" ? "default" : campaign.status === "Paused" ? "secondary" : "outline"
+                      campaign.status === "Active"
+                        ? "default"
+                        : campaign.status === "Paused"
+                        ? "secondary"
+                        : "outline"
                     }
                     className={
                       campaign.status === "Active"
                         ? "bg-green-500/20 text-green-400 border-green-500/30"
                         : campaign.status === "Paused"
-                          ? "bg-yellow-500/20 text-yellow-400 border-yellow-500/30"
-                          : "bg-gray-500/20 text-gray-400 border-gray-500/30"
+                        ? "bg-yellow-500/20 text-yellow-400 border-yellow-500/30"
+                        : "bg-gray-500/20 text-gray-400 border-gray-500/30"
                     }
                   >
                     {campaign.status}
@@ -177,21 +211,34 @@ export function DashboardContent() {
                 <div className="grid grid-cols-2 gap-4">
                   <div>
                     <p className="text-sm text-gray-400">Total Calls</p>
-                    <p className="text-lg font-semibold text-white">{campaign.calls.toLocaleString()}</p>
+                    <p className="text-lg font-semibold text-white">
+                      {campaign.calls.toLocaleString()}
+                    </p>
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Conversion Rate</p>
-                    <p className="text-lg font-semibold text-orange-400">{campaign.conversion}</p>
+                    <p className="text-lg font-semibold text-orange-400">
+                      {campaign.conversion}
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-center justify-between pt-2 border-t border-gray-800">
-                  <span className="text-sm text-gray-400">Last run: {campaign.lastRun}</span>
+                  <span className="text-sm text-gray-400">
+                    Last run: {campaign.lastRun}
+                  </span>
                   <div className="flex gap-2">
-                    <Button size="sm" variant="outline" className="border-gray-700 text-gray-300 hover:bg-gray-800">
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      className="border-gray-700 text-gray-300 hover:bg-gray-800"
+                    >
                       View
                     </Button>
                     {campaign.status === "Active" && (
-                      <Button size="sm" className="bg-orange-500 hover:bg-orange-600 text-white">
+                      <Button
+                        size="sm"
+                        className="bg-orange-500 hover:bg-orange-600 text-white"
+                      >
                         Optimize
                       </Button>
                     )}
@@ -206,7 +253,7 @@ export function DashboardContent() {
       {/* Quick Actions */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <Card className="bg-gradient-to-br from-orange-500/10 to-orange-600/5 border-orange-500/20 hover:border-orange-500/40 transition-colors cursor-pointer">
-          <CardHeader>
+          <CardHeader onClick={handleNewCampaign}>
             <CardTitle className="text-white flex items-center gap-2">
               <Target className="h-5 w-5 text-orange-400" />
               Create Campaign
@@ -223,7 +270,9 @@ export function DashboardContent() {
               <BarChart3 className="h-5 w-5 text-blue-400" />
               View Analytics
             </CardTitle>
-            <CardDescription className="text-gray-300">Deep dive into performance metrics and insights</CardDescription>
+            <CardDescription className="text-gray-300">
+              Deep dive into performance metrics and insights
+            </CardDescription>
           </CardHeader>
         </Card>
 
@@ -233,10 +282,12 @@ export function DashboardContent() {
               <Users className="h-5 w-5 text-purple-400" />
               Manage Contacts
             </CardTitle>
-            <CardDescription className="text-gray-300">Upload and organize your contact lists</CardDescription>
+            <CardDescription className="text-gray-300">
+              Upload and organize your contact lists
+            </CardDescription>
           </CardHeader>
         </Card>
       </div>
     </div>
-  )
+  );
 }

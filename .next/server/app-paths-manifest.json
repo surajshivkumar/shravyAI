@@ -1,4 +1,11 @@
 {
-  "/dashboard/wallet/page": "app/dashboard/wallet/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/campaigns/new/page": "app/campaigns/new/page.js",
+  "/dashboard/campaigns/[id]/page": "app/dashboard/campaigns/[id]/page.js",
+  "/dashboard/campaigns/new/page": "app/dashboard/campaigns/new/page.js",
+  "/dashboard/campaigns/page": "app/dashboard/campaigns/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js"
 }
