@@ -73,8 +73,8 @@ const quickActions = [
 
 export function AppSidebar() {
   return (
-    <Sidebar className="bg-gray-900 border-r border-gray-800/50">
-      <SidebarHeader className="bg-gray-900 border-b border-gray-800/50 p-4">
+    <Sidebar className="bg-gray-800 border-r border-gray-800/50">
+      <SidebarHeader className="bg-gray-800 border-b border-gray-800/50 p-4">
         <div className="flex items-center gap-3">
           <div className="p-2 bg-gradient-to-r from-orange-500 to-orange-600 rounded-lg">
             <Phone className="h-5 w-5 text-white" />
@@ -88,9 +88,9 @@ export function AppSidebar() {
         </div>
       </SidebarHeader>
 
-      <SidebarContent className="p-2 bg-gray-900">
+      <SidebarContent className="p-2 bg-gray-800">
         <SidebarGroup>
-          <SidebarGroupLabel className=" text-gray-400 text-xs uppercase tracking-wider">
+          <SidebarGroupLabel className="text-gray-400 text-xs uppercase tracking-wider">
             Navigation
           </SidebarGroupLabel>
           <SidebarGroupContent>
@@ -113,7 +113,7 @@ export function AppSidebar() {
         </SidebarGroup>
 
         <SidebarGroup>
-          <SidebarGroupLabel className="bg-gray-900 text-gray-400 text-xs uppercase tracking-wider">
+          <SidebarGroupLabel className="text-gray-400 text-xs uppercase tracking-wider">
             Quick Actions
           </SidebarGroupLabel>
           <SidebarGroupContent>
@@ -136,7 +136,7 @@ export function AppSidebar() {
         </SidebarGroup>
       </SidebarContent>
 
-      <SidebarFooter className="bg-gray-900 border-t border-gray-800/50 p-4">
+      <SidebarFooter className="bg-gray-800 border-t border-gray-800/50 p-4">
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton
@@ -156,8 +156,10 @@ export function AppSidebar() {
               <span className="text-white text-sm font-medium">JD</span>
             </div>
             <div className="flex-1 min-w-0">
-              <p className="text-sm font-medium text-white truncate">Suraj</p>
-              <p className="text-xs text-gray-400 truncate">suraj@abc.com</p>
+              <p className="text-sm font-medium text-white truncate">
+                John Doe
+              </p>
+              <p className="text-xs text-gray-400 truncate">john@company.com</p>
             </div>
           </div>
         </div>
