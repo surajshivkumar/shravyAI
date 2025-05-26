@@ -173,38 +173,42 @@ export function BudgetAllocation() {
 
   return (
     <div className="space-y-6">
-      <Card>
+      <Card className="bg-gray-900">
         <CardHeader>
-          <CardTitle className="flex items-center gap-2">
+          <CardTitle className="text-white flex items-center gap-2">
             <Target className="h-5 w-5" />
             Budget Allocation Overview
           </CardTitle>
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div className="text-center">
-              <div className="text-2xl font-bold">
+            <div className="text-white text-center">
+              <div className="text-white text-2xl font-bold">
                 {formatCurrency(totalDailyBudget)}
               </div>
-              <div className="text-sm text-muted-foreground">Daily Budget</div>
+              <div className="text-white text-sm text-muted-foreground">
+                Daily Budget
+              </div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold">
+              <div className="text-white text-2xl font-bold">
                 {formatCurrency(totalSpent)}
               </div>
-              <div className="text-sm text-muted-foreground">Total Spent</div>
+              <div className="text-white text-sm text-muted-foreground">
+                Total Spent
+              </div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold">
+              <div className="text-white text-2xl font-bold">
                 {ads.filter((ad) => ad.status === "active").length}
               </div>
-              <div className="text-sm text-muted-foreground">
+              <div className="text-white text-sm text-muted-foreground">
                 Active Campaigns
               </div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold">{ads.length}</div>
-              <div className="text-sm text-muted-foreground">
+              <div className="text-white text-2xl font-bold">{ads.length}</div>
+              <div className="text-white text-sm text-muted-foreground">
                 Total Campaigns
               </div>
             </div>
@@ -212,14 +216,17 @@ export function BudgetAllocation() {
         </CardContent>
       </Card>
 
-      <Card>
-        <CardHeader>
+      <Card className="bg-gray-900">
+        <CardHeader className="text-white">
           <CardTitle>Active Campaigns</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="space-y-4">
             {ads.map((ad) => (
-              <div key={ad.id} className="border rounded-lg p-4 space-y-4">
+              <div
+                key={ad.id}
+                className="text-white border rounded-lg p-4 space-y-4"
+              >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3">
                     <div

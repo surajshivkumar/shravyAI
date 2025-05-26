@@ -55,7 +55,7 @@ function page() {
         open={rechargeModalOpen}
         onOpenChange={setRechargeModalOpen}
       />
-      <BudgetAllocation />
+      {/* <BudgetAllocation /> */}
     </div>
   );
 }

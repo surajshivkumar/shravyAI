@@ -26,10 +26,12 @@ export function WalletOverview({ onRecharge }: WalletOverviewProps) {
   };
 
   return (
-    <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-      <Card>
+    <div className=" bg-gray-900 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+      <Card className="bg-gray700">
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-          <CardTitle className="text-sm font-medium">Current Balance</CardTitle>
+          <CardTitle className="text-white text-sm font-medium">
+            Current Balance
+          </CardTitle>
           <Wallet className="h-4 w-4 text-muted-foreground" />
         </CardHeader>
         <CardContent>
@@ -38,20 +40,22 @@ export function WalletOverview({ onRecharge }: WalletOverviewProps) {
           </div>
           <div className="flex items-center justify-between mt-2">
             <p className="text-xs text-muted-foreground">Available to spend</p>
-            <Button size="sm" onClick={onRecharge}>
+            <Button className="bg-orange-500" size="sm" onClick={onRecharge}>
               Recharge
             </Button>
           </div>
         </CardContent>
       </Card>
 
-      <Card>
+      <Card className="bg-gray-900">
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-          <CardTitle className="text-sm font-medium">Monthly Spend</CardTitle>
+          <CardTitle className="text-white text-sm font-medium">
+            Monthly Spend
+          </CardTitle>
           <TrendingUp className="h-4 w-4 text-muted-foreground" />
         </CardHeader>
         <CardContent>
-          <div className="text-2xl font-bold">
+          <div className="text-white text-2xl font-bold">
             {formatCurrency(walletData.monthlySpend)}
           </div>
           <p className="text-xs text-muted-foreground">
@@ -60,13 +64,15 @@ export function WalletOverview({ onRecharge }: WalletOverviewProps) {
         </CardContent>
       </Card>
 
-      <Card>
-        <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-          <CardTitle className="text-sm font-medium">Total Spent</CardTitle>
+      <Card className="bg-gray-900">
+        <CardHeader className="text-white flex flex-row items-center justify-between space-y-0 pb-2">
+          <CardTitle className="text-white text-sm font-medium">
+            Total Spent
+          </CardTitle>
           <DollarSign className="h-4 w-4 text-muted-foreground" />
         </CardHeader>
         <CardContent>
-          <div className="text-2xl font-bold">
+          <div className="text-white text-2xl font-bold">
             {formatCurrency(walletData.totalSpent)}
           </div>
           <p className="text-xs text-muted-foreground">
@@ -75,12 +81,14 @@ export function WalletOverview({ onRecharge }: WalletOverviewProps) {
         </CardContent>
       </Card>
 
-      <Card>
+      <Card className="bg-gray-900">
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-          <CardTitle className="text-sm font-medium">Credit Limit</CardTitle>
+          <CardTitle className="text-white text-sm font-medium">
+            Credit Limit
+          </CardTitle>
           <CreditCard className="h-4 w-4 text-muted-foreground" />
         </CardHeader>
-        <CardContent>
+        <CardContent className="text-white">
           <div className="text-2xl font-bold">
             {formatCurrency(walletData.availableCredit)}
           </div>
