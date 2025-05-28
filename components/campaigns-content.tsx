@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Search,
   Plus,
@@ -39,8 +39,9 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Progress } from "@/components/ui/progress";
+import { useCampaignStore } from "@/store";
 
-const campaignsData = [
+let campaignsData = [
   {
     id: "1",
     name: "Q1 Product Launch A/B Test",
@@ -150,6 +151,21 @@ const campaignsData = [
     tags: ["Expansion", "New Market"],
   },
 ];
+const fillDummyValue = {
+  status: "Active",
+  createdAt: "2024-01-18",
+  lastActivity: "1 hour ago",
+  totalCalls: 78,
+  totalContacts: 1200,
+  conversions: 12,
+  conversionRate: 15.4,
+  variants: ["Market Education", "Direct Pitch"],
+  agent: "Agent Zeta",
+  budget: 6000,
+  spent: 390,
+  performance: "up",
+  tags: ["Expansion", "New Market"],
+};
 
 const campaignStats = {
   total: campaignsData.length,
@@ -170,8 +186,27 @@ export function CampaignsContent() {
   const [selectedType, setSelectedType] = useState("all");
   const [sortBy, setSortBy] = useState("recent");
   const [viewMode, setViewMode] = useState("all");
+  const campaigns = useCampaignStore((state) => state.campaigns);
+  console.log(campaigns, "DATA STOREEEE");
+  const data = campaigns.map((campaign) => {
+    return {
+      id: campaign.id,
+      name: campaign.name,
+      type: campaign.type,
+      ...fillDummyValue, ///filling dummy values for now, will get updated values from backend
+    };
+  });
+  console.log(data, "manipulated");
+  useEffect(() => {
+    console.log(campaigns);
+    // This code runs only once after the component mounts
 
-  const filteredCampaigns = campaignsData.filter((campaign) => {
+    // campaignsData = [...data, ...campaignsData];
+    // Optional cleanup function runs on unmount
+    return () => {};
+  }, []);
+
+  const filteredCampaigns = data.filter((campaign) => {
     const matchesSearch =
       campaign.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
       campaign.agent.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -407,6 +442,7 @@ export function CampaignsContent() {
                     <div className="space-y-2">
                       <div className="flex items-center gap-2">
                         {getTypeIcon(campaign.type)}
+
                         <CardTitle className="text-white text-lg">
                           {campaign.name}
                         </CardTitle>

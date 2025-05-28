@@ -492,7 +492,7 @@ function CampaignStudio({ campaignId }) {
                     className: "h-4 w-4 text-green-400"
                 }, void 0, false, {
                     fileName: "[project]/components/campaign-studio.tsx",
-                    lineNumber: 184,
+                    lineNumber: 185,
                     columnNumber: 16
                 }, this);
             case "neutral":
@@ -500,7 +500,7 @@ function CampaignStudio({ campaignId }) {
                     className: "h-4 w-4 text-yellow-400"
                 }, void 0, false, {
                     fileName: "[project]/components/campaign-studio.tsx",
-                    lineNumber: 186,
+                    lineNumber: 187,
                     columnNumber: 16
                 }, this);
             case "negative":
@@ -508,7 +508,7 @@ function CampaignStudio({ campaignId }) {
                     className: "h-4 w-4 text-red-400"
                 }, void 0, false, {
                     fileName: "[project]/components/campaign-studio.tsx",
-                    lineNumber: 188,
+                    lineNumber: 189,
                     columnNumber: 16
                 }, this);
             default:
@@ -516,7 +516,7 @@ function CampaignStudio({ campaignId }) {
                     className: "h-4 w-4 text-gray-400"
                 }, void 0, false, {
                     fileName: "[project]/components/campaign-studio.tsx",
-                    lineNumber: 190,
+                    lineNumber: 191,
                     columnNumber: 16
                 }, this);
         }
@@ -532,7 +532,7 @@ function CampaignStudio({ campaignId }) {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$sidebar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SidebarTrigger"], {}, void 0, false, {
                                 fileName: "[project]/components/campaign-studio.tsx",
-                                lineNumber: 199,
+                                lineNumber: 200,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -545,7 +545,7 @@ function CampaignStudio({ campaignId }) {
                                                 children: campaignData.name
                                             }, void 0, false, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 202,
+                                                lineNumber: 203,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -555,20 +555,20 @@ function CampaignStudio({ campaignId }) {
                                                         className: "h-3 w-3"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 206,
+                                                        lineNumber: 207,
                                                         columnNumber: 17
                                                     }, this),
                                                     campaignData.status
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 205,
+                                                lineNumber: 206,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 201,
+                                        lineNumber: 202,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -576,19 +576,19 @@ function CampaignStudio({ campaignId }) {
                                         children: "Campaign Studio - Live Monitoring & Analytics"
                                     }, void 0, false, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 210,
+                                        lineNumber: 211,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/campaign-studio.tsx",
-                                lineNumber: 200,
+                                lineNumber: 201,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/campaign-studio.tsx",
-                        lineNumber: 198,
+                        lineNumber: 199,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -605,14 +605,14 @@ function CampaignStudio({ campaignId }) {
                                         className: `h-4 w-4 mr-2 ${refreshing ? "animate-spin" : ""}`
                                     }, void 0, false, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 223,
+                                        lineNumber: 224,
                                         columnNumber: 13
                                     }, this),
                                     "Refresh"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/campaign-studio.tsx",
-                                lineNumber: 216,
+                                lineNumber: 217,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -624,14 +624,14 @@ function CampaignStudio({ campaignId }) {
                                         className: "h-4 w-4 mr-2"
                                     }, void 0, false, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 233,
+                                        lineNumber: 234,
                                         columnNumber: 13
                                     }, this),
                                     "Export Data"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/campaign-studio.tsx",
-                                lineNumber: 228,
+                                lineNumber: 229,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -643,14 +643,14 @@ function CampaignStudio({ campaignId }) {
                                         className: "h-4 w-4 mr-2"
                                     }, void 0, false, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 241,
+                                        lineNumber: 242,
                                         columnNumber: 13
                                     }, this),
                                     "Settings"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/campaign-studio.tsx",
-                                lineNumber: 236,
+                                lineNumber: 237,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -661,32 +661,32 @@ function CampaignStudio({ campaignId }) {
                                         className: "h-4 w-4 mr-2"
                                     }, void 0, false, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 253,
+                                        lineNumber: 254,
                                         columnNumber: 15
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$play$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Play$3e$__["Play"], {
                                         className: "h-4 w-4 mr-2"
                                     }, void 0, false, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 255,
+                                        lineNumber: 256,
                                         columnNumber: 15
                                     }, this),
                                     isLive ? "Pause" : "Resume"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/campaign-studio.tsx",
-                                lineNumber: 244,
+                                lineNumber: 245,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/campaign-studio.tsx",
-                        lineNumber: 215,
+                        lineNumber: 216,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/campaign-studio.tsx",
-                lineNumber: 197,
+                lineNumber: 198,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -706,7 +706,7 @@ function CampaignStudio({ campaignId }) {
                                                 className: "w-3 h-3 bg-green-400 rounded-full animate-pulse"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 268,
+                                                lineNumber: 269,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -714,13 +714,13 @@ function CampaignStudio({ campaignId }) {
                                                 children: "Live Campaign"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 269,
+                                                lineNumber: 270,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 267,
+                                        lineNumber: 268,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -731,7 +731,7 @@ function CampaignStudio({ campaignId }) {
                                                 children: liveMetrics.currentlyActive
                                             }, void 0, false, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 274,
+                                                lineNumber: 275,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -739,13 +739,13 @@ function CampaignStudio({ campaignId }) {
                                                 children: "agents active"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 277,
+                                                lineNumber: 278,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 273,
+                                        lineNumber: 274,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -756,7 +756,7 @@ function CampaignStudio({ campaignId }) {
                                                 children: liveMetrics.callsPerHour
                                             }, void 0, false, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 280,
+                                                lineNumber: 281,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -764,13 +764,13 @@ function CampaignStudio({ campaignId }) {
                                                 children: "calls/hour"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 283,
+                                                lineNumber: 284,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 279,
+                                        lineNumber: 280,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -781,7 +781,7 @@ function CampaignStudio({ campaignId }) {
                                                 children: liveMetrics.queuedCalls
                                             }, void 0, false, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 286,
+                                                lineNumber: 287,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -789,19 +789,19 @@ function CampaignStudio({ campaignId }) {
                                                 children: "in queue"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 289,
+                                                lineNumber: 290,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 285,
+                                        lineNumber: 286,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/campaign-studio.tsx",
-                                lineNumber: 266,
+                                lineNumber: 267,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -812,7 +812,7 @@ function CampaignStudio({ campaignId }) {
                                         children: "Campaign Runtime"
                                     }, void 0, false, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 293,
+                                        lineNumber: 294,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -820,29 +820,29 @@ function CampaignStudio({ campaignId }) {
                                         children: "12:34:56"
                                     }, void 0, false, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 294,
+                                        lineNumber: 295,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/campaign-studio.tsx",
-                                lineNumber: 292,
+                                lineNumber: 293,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/campaign-studio.tsx",
-                        lineNumber: 265,
+                        lineNumber: 266,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/campaign-studio.tsx",
-                    lineNumber: 264,
+                    lineNumber: 265,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/campaign-studio.tsx",
-                lineNumber: 263,
+                lineNumber: 264,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Tabs"], {
@@ -861,14 +861,14 @@ function CampaignStudio({ campaignId }) {
                                         className: "h-4 w-4 mr-2"
                                     }, void 0, false, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 311,
+                                        lineNumber: 312,
                                         columnNumber: 13
                                     }, this),
                                     "Overview"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/campaign-studio.tsx",
-                                lineNumber: 307,
+                                lineNumber: 308,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -879,14 +879,14 @@ function CampaignStudio({ campaignId }) {
                                         className: "h-4 w-4 mr-2"
                                     }, void 0, false, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 318,
+                                        lineNumber: 319,
                                         columnNumber: 13
                                     }, this),
                                     "A/B Comparison"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/campaign-studio.tsx",
-                                lineNumber: 314,
+                                lineNumber: 315,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -897,20 +897,20 @@ function CampaignStudio({ campaignId }) {
                                         className: "h-4 w-4 mr-2"
                                     }, void 0, false, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 325,
+                                        lineNumber: 326,
                                         columnNumber: 13
                                     }, this),
                                     "Recent Calls"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/campaign-studio.tsx",
-                                lineNumber: 321,
+                                lineNumber: 322,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/campaign-studio.tsx",
-                        lineNumber: 306,
+                        lineNumber: 307,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -931,20 +931,20 @@ function CampaignStudio({ campaignId }) {
                                                         children: "Total Calls"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 336,
+                                                        lineNumber: 337,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
                                                         className: "h-4 w-4 text-blue-400"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 339,
+                                                        lineNumber: 340,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 335,
+                                                lineNumber: 336,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -954,7 +954,7 @@ function CampaignStudio({ campaignId }) {
                                                         children: campaignData.totalCalls.toLocaleString()
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 342,
+                                                        lineNumber: 343,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -964,7 +964,7 @@ function CampaignStudio({ campaignId }) {
                                                                 className: "h-3 w-3"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                                lineNumber: 346,
+                                                                lineNumber: 347,
                                                                 columnNumber: 19
                                                             }, this),
                                                             liveMetrics.successTrend,
@@ -972,19 +972,19 @@ function CampaignStudio({ campaignId }) {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 345,
+                                                        lineNumber: 346,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 341,
+                                                lineNumber: 342,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 334,
+                                        lineNumber: 335,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -998,20 +998,20 @@ function CampaignStudio({ campaignId }) {
                                                         children: "Overall Conversion"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 354,
+                                                        lineNumber: 355,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$target$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Target$3e$__["Target"], {
                                                         className: "h-4 w-4 text-orange-400"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 357,
+                                                        lineNumber: 358,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 353,
+                                                lineNumber: 354,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1021,7 +1021,7 @@ function CampaignStudio({ campaignId }) {
                                                         children: "19.0%"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 360,
+                                                        lineNumber: 361,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1031,7 +1031,7 @@ function CampaignStudio({ campaignId }) {
                                                                 className: "h-3 w-3"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                                lineNumber: 362,
+                                                                lineNumber: 363,
                                                                 columnNumber: 19
                                                             }, this),
                                                             liveMetrics.conversionTrend,
@@ -1039,19 +1039,19 @@ function CampaignStudio({ campaignId }) {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 361,
+                                                        lineNumber: 362,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 359,
+                                                lineNumber: 360,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 352,
+                                        lineNumber: 353,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -1065,20 +1065,20 @@ function CampaignStudio({ campaignId }) {
                                                         children: "Avg Call Duration"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 370,
+                                                        lineNumber: 371,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__["Clock"], {
                                                         className: "h-4 w-4 text-purple-400"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 373,
+                                                        lineNumber: 374,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 369,
+                                                lineNumber: 370,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1088,7 +1088,7 @@ function CampaignStudio({ campaignId }) {
                                                         children: "4:09"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 376,
+                                                        lineNumber: 377,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1096,19 +1096,19 @@ function CampaignStudio({ campaignId }) {
                                                         children: "Optimal range: 3-6 min"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 377,
+                                                        lineNumber: 378,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 375,
+                                                lineNumber: 376,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 368,
+                                        lineNumber: 369,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -1122,20 +1122,20 @@ function CampaignStudio({ campaignId }) {
                                                         children: "Contacts Remaining"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 383,
+                                                        lineNumber: 384,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
                                                         className: "h-4 w-4 text-green-400"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 386,
+                                                        lineNumber: 387,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 382,
+                                                lineNumber: 383,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1145,7 +1145,7 @@ function CampaignStudio({ campaignId }) {
                                                         children: (campaignData.totalContacts - campaignData.totalCalls).toLocaleString()
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 389,
+                                                        lineNumber: 390,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$progress$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Progress"], {
@@ -1153,25 +1153,25 @@ function CampaignStudio({ campaignId }) {
                                                         className: "mt-2"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 394,
+                                                        lineNumber: 395,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 388,
+                                                lineNumber: 389,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 381,
+                                        lineNumber: 382,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/campaign-studio.tsx",
-                                lineNumber: 333,
+                                lineNumber: 334,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -1184,7 +1184,7 @@ function CampaignStudio({ campaignId }) {
                                                 children: "Performance Over Time"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 407,
+                                                lineNumber: 408,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardDescription"], {
@@ -1192,13 +1192,13 @@ function CampaignStudio({ campaignId }) {
                                                 children: "Conversion rates and call volume trends"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 410,
+                                                lineNumber: 411,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 406,
+                                        lineNumber: 407,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1209,29 +1209,29 @@ function CampaignStudio({ campaignId }) {
                                                 children: "📊 Live performance chart would be rendered here"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 416,
+                                                lineNumber: 417,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/campaign-studio.tsx",
-                                            lineNumber: 415,
+                                            lineNumber: 416,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 414,
+                                        lineNumber: 415,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/campaign-studio.tsx",
-                                lineNumber: 405,
+                                lineNumber: 406,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/campaign-studio.tsx",
-                        lineNumber: 331,
+                        lineNumber: 332,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -1254,14 +1254,14 @@ function CampaignStudio({ campaignId }) {
                                                                 children: "A"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                                lineNumber: 431,
+                                                                lineNumber: 432,
                                                                 columnNumber: 19
                                                             }, this),
                                                             campaignData.variants.A.name
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 430,
+                                                        lineNumber: 431,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardDescription"], {
@@ -1269,13 +1269,13 @@ function CampaignStudio({ campaignId }) {
                                                         children: "Professional approach variant"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 436,
+                                                        lineNumber: 437,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 429,
+                                                lineNumber: 430,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1291,7 +1291,7 @@ function CampaignStudio({ campaignId }) {
                                                                         children: "Calls Made"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                                        lineNumber: 443,
+                                                                        lineNumber: 444,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1299,13 +1299,13 @@ function CampaignStudio({ campaignId }) {
                                                                         children: campaignData.variants.A.calls
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                                        lineNumber: 444,
+                                                                        lineNumber: 445,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                                lineNumber: 442,
+                                                                lineNumber: 443,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1315,7 +1315,7 @@ function CampaignStudio({ campaignId }) {
                                                                         children: "Conversions"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                                        lineNumber: 449,
+                                                                        lineNumber: 450,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1323,13 +1323,13 @@ function CampaignStudio({ campaignId }) {
                                                                         children: campaignData.variants.A.conversions
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                                        lineNumber: 450,
+                                                                        lineNumber: 451,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                                lineNumber: 448,
+                                                                lineNumber: 449,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1339,7 +1339,7 @@ function CampaignStudio({ campaignId }) {
                                                                         children: "Conversion Rate"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                                        lineNumber: 455,
+                                                                        lineNumber: 456,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1350,13 +1350,13 @@ function CampaignStudio({ campaignId }) {
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                                        lineNumber: 456,
+                                                                        lineNumber: 457,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                                lineNumber: 454,
+                                                                lineNumber: 455,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1366,7 +1366,7 @@ function CampaignStudio({ campaignId }) {
                                                                         children: "Success Rate"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                                        lineNumber: 461,
+                                                                        lineNumber: 462,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1377,19 +1377,19 @@ function CampaignStudio({ campaignId }) {
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                                        lineNumber: 462,
+                                                                        lineNumber: 463,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                                lineNumber: 460,
+                                                                lineNumber: 461,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 441,
+                                                        lineNumber: 442,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1400,7 +1400,7 @@ function CampaignStudio({ campaignId }) {
                                                                 children: "Avg Call Duration"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                                lineNumber: 468,
+                                                                lineNumber: 469,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1408,13 +1408,13 @@ function CampaignStudio({ campaignId }) {
                                                                 children: campaignData.variants.A.avgCallDuration
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                                lineNumber: 469,
+                                                                lineNumber: 470,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 467,
+                                                        lineNumber: 468,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -1422,19 +1422,19 @@ function CampaignStudio({ campaignId }) {
                                                         children: "🏆 Leading Variant"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 473,
+                                                        lineNumber: 474,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 440,
+                                                lineNumber: 441,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 428,
+                                        lineNumber: 429,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -1450,14 +1450,14 @@ function CampaignStudio({ campaignId }) {
                                                                 children: "B"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                                lineNumber: 483,
+                                                                lineNumber: 484,
                                                                 columnNumber: 19
                                                             }, this),
                                                             campaignData.variants.B.name
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 482,
+                                                        lineNumber: 483,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardDescription"], {
@@ -1465,13 +1465,13 @@ function CampaignStudio({ campaignId }) {
                                                         children: "Casual approach variant"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 488,
+                                                        lineNumber: 489,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 481,
+                                                lineNumber: 482,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1487,7 +1487,7 @@ function CampaignStudio({ campaignId }) {
                                                                         children: "Calls Made"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                                        lineNumber: 495,
+                                                                        lineNumber: 496,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1495,13 +1495,13 @@ function CampaignStudio({ campaignId }) {
                                                                         children: campaignData.variants.B.calls
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                                        lineNumber: 496,
+                                                                        lineNumber: 497,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                                lineNumber: 494,
+                                                                lineNumber: 495,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1511,7 +1511,7 @@ function CampaignStudio({ campaignId }) {
                                                                         children: "Conversions"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                                        lineNumber: 501,
+                                                                        lineNumber: 502,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1519,13 +1519,13 @@ function CampaignStudio({ campaignId }) {
                                                                         children: campaignData.variants.B.conversions
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                                        lineNumber: 502,
+                                                                        lineNumber: 503,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                                lineNumber: 500,
+                                                                lineNumber: 501,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1535,7 +1535,7 @@ function CampaignStudio({ campaignId }) {
                                                                         children: "Conversion Rate"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                                        lineNumber: 507,
+                                                                        lineNumber: 508,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1546,13 +1546,13 @@ function CampaignStudio({ campaignId }) {
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                                        lineNumber: 508,
+                                                                        lineNumber: 509,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                                lineNumber: 506,
+                                                                lineNumber: 507,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1562,7 +1562,7 @@ function CampaignStudio({ campaignId }) {
                                                                         children: "Success Rate"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                                        lineNumber: 513,
+                                                                        lineNumber: 514,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1573,19 +1573,19 @@ function CampaignStudio({ campaignId }) {
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                                        lineNumber: 514,
+                                                                        lineNumber: 515,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                                lineNumber: 512,
+                                                                lineNumber: 513,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 493,
+                                                        lineNumber: 494,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1596,7 +1596,7 @@ function CampaignStudio({ campaignId }) {
                                                                 children: "Avg Call Duration"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                                lineNumber: 520,
+                                                                lineNumber: 521,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1604,13 +1604,13 @@ function CampaignStudio({ campaignId }) {
                                                                 children: campaignData.variants.B.avgCallDuration
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                                lineNumber: 521,
+                                                                lineNumber: 522,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 519,
+                                                        lineNumber: 520,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -1618,25 +1618,25 @@ function CampaignStudio({ campaignId }) {
                                                         children: "📈 Improving"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 525,
+                                                        lineNumber: 526,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 492,
+                                                lineNumber: 493,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 480,
+                                        lineNumber: 481,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/campaign-studio.tsx",
-                                lineNumber: 426,
+                                lineNumber: 427,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -1649,7 +1649,7 @@ function CampaignStudio({ campaignId }) {
                                                 children: "A/B Test Insights"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 535,
+                                                lineNumber: 536,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardDescription"], {
@@ -1657,13 +1657,13 @@ function CampaignStudio({ campaignId }) {
                                                 children: "Key findings from variant comparison"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 536,
+                                                lineNumber: 537,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 534,
+                                        lineNumber: 535,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1676,7 +1676,7 @@ function CampaignStudio({ campaignId }) {
                                                         className: "h-5 w-5 text-green-400"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 542,
+                                                        lineNumber: 543,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1684,13 +1684,13 @@ function CampaignStudio({ campaignId }) {
                                                         children: "Variant A shows 39% higher conversion rate (+6.2 percentage points)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 543,
+                                                        lineNumber: 544,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 541,
+                                                lineNumber: 542,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1700,7 +1700,7 @@ function CampaignStudio({ campaignId }) {
                                                         className: "h-5 w-5 text-blue-400"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 549,
+                                                        lineNumber: 550,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1708,13 +1708,13 @@ function CampaignStudio({ campaignId }) {
                                                         children: "Variant A has longer call duration, indicating better engagement"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 550,
+                                                        lineNumber: 551,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 548,
+                                                lineNumber: 549,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1724,7 +1724,7 @@ function CampaignStudio({ campaignId }) {
                                                         className: "h-5 w-5 text-yellow-400"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 556,
+                                                        lineNumber: 557,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1732,31 +1732,31 @@ function CampaignStudio({ campaignId }) {
                                                         children: "Statistical significance reached - consider scaling Variant A"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                        lineNumber: 557,
+                                                        lineNumber: 558,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/campaign-studio.tsx",
-                                                lineNumber: 555,
+                                                lineNumber: 556,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 540,
+                                        lineNumber: 541,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/campaign-studio.tsx",
-                                lineNumber: 533,
+                                lineNumber: 534,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/campaign-studio.tsx",
-                        lineNumber: 425,
+                        lineNumber: 426,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -1771,7 +1771,7 @@ function CampaignStudio({ campaignId }) {
                                         children: "Recent Call Activity"
                                     }, void 0, false, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 568,
+                                        lineNumber: 569,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -1779,13 +1779,13 @@ function CampaignStudio({ campaignId }) {
                                         children: "Live Feed"
                                     }, void 0, false, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 571,
+                                        lineNumber: 572,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/campaign-studio.tsx",
-                                lineNumber: 567,
+                                lineNumber: 568,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1808,12 +1808,12 @@ function CampaignStudio({ campaignId }) {
                                                                         children: call.contactName.split(" ").map((n)=>n[0]).join("")
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/campaign-studio.tsx",
-                                                                        lineNumber: 586,
+                                                                        lineNumber: 587,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/campaign-studio.tsx",
-                                                                    lineNumber: 585,
+                                                                    lineNumber: 586,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1826,7 +1826,7 @@ function CampaignStudio({ campaignId }) {
                                                                                     children: call.contactName
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/campaign-studio.tsx",
-                                                                                    lineNumber: 595,
+                                                                                    lineNumber: 596,
                                                                                     columnNumber: 27
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1834,13 +1834,13 @@ function CampaignStudio({ campaignId }) {
                                                                                     children: call.company
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/campaign-studio.tsx",
-                                                                                    lineNumber: 598,
+                                                                                    lineNumber: 599,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/campaign-studio.tsx",
-                                                                            lineNumber: 594,
+                                                                            lineNumber: 595,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1854,7 +1854,7 @@ function CampaignStudio({ campaignId }) {
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/components/campaign-studio.tsx",
-                                                                                    lineNumber: 601,
+                                                                                    lineNumber: 602,
                                                                                     columnNumber: 27
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -1862,7 +1862,7 @@ function CampaignStudio({ campaignId }) {
                                                                                     children: call.status
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/campaign-studio.tsx",
-                                                                                    lineNumber: 610,
+                                                                                    lineNumber: 611,
                                                                                     columnNumber: 27
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1874,31 +1874,31 @@ function CampaignStudio({ campaignId }) {
                                                                                             children: call.sentiment
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/components/campaign-studio.tsx",
-                                                                                            lineNumber: 615,
+                                                                                            lineNumber: 616,
                                                                                             columnNumber: 29
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/components/campaign-studio.tsx",
-                                                                                    lineNumber: 613,
+                                                                                    lineNumber: 614,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/campaign-studio.tsx",
-                                                                            lineNumber: 600,
+                                                                            lineNumber: 601,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/campaign-studio.tsx",
-                                                                    lineNumber: 593,
+                                                                    lineNumber: 594,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/campaign-studio.tsx",
-                                                            lineNumber: 584,
+                                                            lineNumber: 585,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1911,20 +1911,20 @@ function CampaignStudio({ campaignId }) {
                                                                             className: "h-4 w-4"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/campaign-studio.tsx",
-                                                                            lineNumber: 623,
+                                                                            lineNumber: 624,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             children: call.duration
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/campaign-studio.tsx",
-                                                                            lineNumber: 624,
+                                                                            lineNumber: 625,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/campaign-studio.tsx",
-                                                                    lineNumber: 622,
+                                                                    lineNumber: 623,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1932,7 +1932,7 @@ function CampaignStudio({ campaignId }) {
                                                                     children: call.timestamp
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/campaign-studio.tsx",
-                                                                    lineNumber: 626,
+                                                                    lineNumber: 627,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -1944,26 +1944,26 @@ function CampaignStudio({ campaignId }) {
                                                                             className: "h-4 w-4 mr-1"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/campaign-studio.tsx",
-                                                                            lineNumber: 632,
+                                                                            lineNumber: 633,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         "Listen"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/campaign-studio.tsx",
-                                                                    lineNumber: 627,
+                                                                    lineNumber: 628,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/campaign-studio.tsx",
-                                                            lineNumber: 621,
+                                                            lineNumber: 622,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/campaign-studio.tsx",
-                                                    lineNumber: 583,
+                                                    lineNumber: 584,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1976,7 +1976,7 @@ function CampaignStudio({ campaignId }) {
                                                                     children: "Outcome"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/campaign-studio.tsx",
-                                                                    lineNumber: 640,
+                                                                    lineNumber: 641,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1984,13 +1984,13 @@ function CampaignStudio({ campaignId }) {
                                                                     children: call.outcome
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/campaign-studio.tsx",
-                                                                    lineNumber: 641,
+                                                                    lineNumber: 642,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/campaign-studio.tsx",
-                                                            lineNumber: 639,
+                                                            lineNumber: 640,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2000,7 +2000,7 @@ function CampaignStudio({ campaignId }) {
                                                                     children: "Key Points"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/campaign-studio.tsx",
-                                                                    lineNumber: 645,
+                                                                    lineNumber: 646,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2011,40 +2011,40 @@ function CampaignStudio({ campaignId }) {
                                                                             children: point
                                                                         }, index, false, {
                                                                             fileName: "[project]/components/campaign-studio.tsx",
-                                                                            lineNumber: 648,
+                                                                            lineNumber: 649,
                                                                             columnNumber: 27
                                                                         }, this))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/campaign-studio.tsx",
-                                                                    lineNumber: 646,
+                                                                    lineNumber: 647,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/campaign-studio.tsx",
-                                                            lineNumber: 644,
+                                                            lineNumber: 645,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/campaign-studio.tsx",
-                                                    lineNumber: 638,
+                                                    lineNumber: 639,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/campaign-studio.tsx",
-                                            lineNumber: 582,
+                                            lineNumber: 583,
                                             columnNumber: 17
                                         }, this)
                                     }, call.id, false, {
                                         fileName: "[project]/components/campaign-studio.tsx",
-                                        lineNumber: 578,
+                                        lineNumber: 579,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/campaign-studio.tsx",
-                                lineNumber: 576,
+                                lineNumber: 577,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2055,30 +2055,30 @@ function CampaignStudio({ campaignId }) {
                                     children: "Load More Calls"
                                 }, void 0, false, {
                                     fileName: "[project]/components/campaign-studio.tsx",
-                                    lineNumber: 665,
+                                    lineNumber: 666,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/campaign-studio.tsx",
-                                lineNumber: 664,
+                                lineNumber: 665,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/campaign-studio.tsx",
-                        lineNumber: 566,
+                        lineNumber: 567,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/campaign-studio.tsx",
-                lineNumber: 301,
+                lineNumber: 302,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/campaign-studio.tsx",
-        lineNumber: 195,
+        lineNumber: 196,
         columnNumber: 5
     }, this);
 }

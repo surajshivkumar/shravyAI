@@ -1,39 +1,57 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { ArrowLeft, ArrowRight, Bot, FlaskConical, Upload, FileText, ImageIcon, Video, Music } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
-import { Badge } from "@/components/ui/badge"
-import { SidebarTrigger } from "@/components/ui/sidebar"
-import { Progress } from "@/components/ui/progress"
-
+import { useState } from "react";
+import {
+  ArrowLeft,
+  ArrowRight,
+  Bot,
+  FlaskConical,
+  Upload,
+  FileText,
+  ImageIcon,
+  Video,
+  Music,
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import { Badge } from "@/components/ui/badge";
+import { SidebarTrigger } from "@/components/ui/sidebar";
+import { Progress } from "@/components/ui/progress";
+import { useCampaignStore } from "../store";
+import { v4 as uuidv4 } from "uuid"; // for generating unique IDs
+import { useRouter } from "next/navigation";
 interface CampaignData {
-  type: "experiment" | "adaptive" | null
-  name: string
+  type: "experiment" | "adaptive" | null;
+  name: string;
   variantA: {
-    name: string
-    description: string
-    tone: string
-    approach: string
-  }
+    name: string;
+    description: string;
+    tone: string;
+    approach: string;
+  };
   variantB: {
-    name: string
-    description: string
-    tone: string
-    approach: string
-  }
+    name: string;
+    description: string;
+    tone: string;
+    approach: string;
+  };
   productInfo: {
-    name: string
-    description: string
-    keyFeatures: string
-    targetAudience: string
-    pricing: string
-  }
-  supportingFiles: File[]
+    name: string;
+    description: string;
+    keyFeatures: string;
+    targetAudience: string;
+    pricing: string;
+  };
+  supportingFiles: File[];
 }
 
 const initialData: CampaignData = {
@@ -41,60 +59,79 @@ const initialData: CampaignData = {
   name: "",
   variantA: { name: "", description: "", tone: "", approach: "" },
   variantB: { name: "", description: "", tone: "", approach: "" },
-  productInfo: { name: "", description: "", keyFeatures: "", targetAudience: "", pricing: "" },
+  productInfo: {
+    name: "",
+    description: "",
+    keyFeatures: "",
+    targetAudience: "",
+    pricing: "",
+  },
   supportingFiles: [],
-}
+};
 
 export function CreateCampaignFlow() {
-  const [currentStep, setCurrentStep] = useState(1)
-  const [campaignData, setCampaignData] = useState<CampaignData>(initialData)
+  const router = useRouter();
+  const [currentStep, setCurrentStep] = useState(1);
+  const [campaignData, setCampaignData] = useState<CampaignData>(initialData);
+
+  const addCampaign = useCampaignStore((state) => state.addCampaign);
 
   const updateCampaignData = (updates: Partial<CampaignData>) => {
-    setCampaignData((prev) => ({ ...prev, ...updates }))
-  }
+    setCampaignData((prev) => ({ ...prev, ...updates }));
+  };
+  const onLaunchCampaign = () => {
+    const newCampaign = { id: uuidv4(), ...campaignData };
+    console.log(newCampaign);
 
-  const updateVariant = (variant: "variantA" | "variantB", updates: Partial<CampaignData["variantA"]>) => {
+    addCampaign(newCampaign);
+    router.push("/dashboard/campaigns");
+  };
+  const updateVariant = (
+    variant: "variantA" | "variantB",
+    updates: Partial<CampaignData["variantA"]>
+  ) => {
     setCampaignData((prev) => ({
       ...prev,
       [variant]: { ...prev[variant], ...updates },
-    }))
-  }
+    }));
+  };
 
   const updateProductInfo = (updates: Partial<CampaignData["productInfo"]>) => {
     setCampaignData((prev) => ({
       ...prev,
       productInfo: { ...prev.productInfo, ...updates },
-    }))
-  }
+    }));
+  };
 
   const handleFileUpload = (files: FileList | null) => {
     if (files) {
-      const newFiles = Array.from(files)
+      const newFiles = Array.from(files);
       setCampaignData((prev) => ({
         ...prev,
         supportingFiles: [...prev.supportingFiles, ...newFiles],
-      }))
+      }));
     }
-  }
+  };
 
   const removeFile = (index: number) => {
     setCampaignData((prev) => ({
       ...prev,
       supportingFiles: prev.supportingFiles.filter((_, i) => i !== index),
-    }))
-  }
+    }));
+  };
 
   const getFileIcon = (file: File) => {
-    if (file.type.startsWith("image/")) return <ImageIcon className="h-4 w-4" />
-    if (file.type.startsWith("video/")) return <Video className="h-4 w-4" />
-    if (file.type.startsWith("audio/")) return <Music className="h-4 w-4" />
-    return <FileText className="h-4 w-4" />
-  }
+    if (file.type.startsWith("image/"))
+      return <ImageIcon className="h-4 w-4" />;
+    if (file.type.startsWith("video/")) return <Video className="h-4 w-4" />;
+    if (file.type.startsWith("audio/")) return <Music className="h-4 w-4" />;
+    return <FileText className="h-4 w-4" />;
+  };
 
   const canProceed = () => {
     switch (currentStep) {
       case 1:
-        return campaignData.type !== null
+        return campaignData.type !== null;
       case 2:
         return (
           campaignData.name &&
@@ -102,13 +139,13 @@ export function CreateCampaignFlow() {
           campaignData.variantB.name &&
           campaignData.productInfo.name &&
           campaignData.productInfo.description
-        )
+        );
       case 3:
-        return true
+        return true;
       default:
-        return false
+        return false;
     }
-  }
+  };
 
   const generatePrompt = (variant: CampaignData["variantA"]) => {
     return `You are a professional telemarketing agent for ${campaignData.productInfo.name}. 
@@ -134,8 +171,8 @@ Remember to:
 4. Handle objections professionally
 5. Guide towards a clear next step or close
 
-Keep the conversation conversational and avoid sounding scripted.`
-  }
+Keep the conversation conversational and avoid sounding scripted.`;
+  };
 
   return (
     <div className="flex-1 space-y-6 p-6">
@@ -144,11 +181,21 @@ Keep the conversation conversational and avoid sounding scripted.`
         <div className="flex items-center gap-4">
           <SidebarTrigger />
           <div>
-            <h1 className="text-3xl font-bold text-white">Create New Campaign</h1>
-            <p className="text-gray-400">Set up your voice agent experiment or adaptive campaign</p>
+            <h1 className="text-3xl font-bold text-white">
+              Create New Campaign
+            </h1>
+            <p className="text-gray-400">
+              Set up your voice agent experiment or adaptive campaign
+            </p>
           </div>
         </div>
-        <Button variant="outline" className="border-gray-700 text-gray-300 hover:bg-gray-800">
+        <Button
+          variant="outline"
+          className="border-gray-700 text-gray-300 hover:bg-gray-800"
+          onClick={() => {
+            router.push("/dashboard/campaigns");
+          }}
+        >
           <ArrowLeft className="h-4 w-4 mr-2" />
           Back to Campaigns
         </Button>
@@ -167,8 +214,12 @@ Keep the conversation conversational and avoid sounding scripted.`
       {currentStep === 1 && (
         <div className="space-y-6">
           <div className="text-center space-y-2">
-            <h2 className="text-2xl font-bold text-white">Choose Campaign Type</h2>
-            <p className="text-gray-400">Select how you want to run your voice agent campaign</p>
+            <h2 className="text-2xl font-bold text-white">
+              Choose Campaign Type
+            </h2>
+            <p className="text-gray-400">
+              Select how you want to run your voice agent campaign
+            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
@@ -186,7 +237,8 @@ Keep the conversation conversational and avoid sounding scripted.`
                 </div>
                 <CardTitle className="text-white">A/B Experiment</CardTitle>
                 <CardDescription className="text-gray-300">
-                  Test multiple conversation approaches to find the most effective strategy
+                  Test multiple conversation approaches to find the most
+                  effective strategy
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-3">
@@ -219,7 +271,8 @@ Keep the conversation conversational and avoid sounding scripted.`
                 </div>
                 <CardTitle className="text-white">Adaptive Agent</CardTitle>
                 <CardDescription className="text-gray-300">
-                  AI automatically adapts conversation style based on prospect responses
+                  AI automatically adapts conversation style based on prospect
+                  responses
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-3">
@@ -232,7 +285,9 @@ Keep the conversation conversational and avoid sounding scripted.`
                     <li>• Maximum conversion focus</li>
                   </ul>
                 </div>
-                <Badge className="bg-blue-500/20 text-blue-400 border-blue-500/30">Advanced AI optimization</Badge>
+                <Badge className="bg-blue-500/20 text-blue-400 border-blue-500/30">
+                  Advanced AI optimization
+                </Badge>
               </CardContent>
             </Card>
           </div>
@@ -243,8 +298,12 @@ Keep the conversation conversational and avoid sounding scripted.`
       {currentStep === 2 && campaignData.type === "experiment" && (
         <div className="space-y-6 max-w-4xl mx-auto">
           <div className="text-center space-y-2">
-            <h2 className="text-2xl font-bold text-white">Experiment Configuration</h2>
-            <p className="text-gray-400">Set up your A/B test variants and product information</p>
+            <h2 className="text-2xl font-bold text-white">
+              Experiment Configuration
+            </h2>
+            <p className="text-gray-400">
+              Set up your A/B test variants and product information
+            </p>
           </div>
 
           {/* Campaign Name */}
@@ -286,7 +345,9 @@ Keep the conversation conversational and avoid sounding scripted.`
                   <Input
                     placeholder="e.g., Professional Approach"
                     value={campaignData.variantA.name}
-                    onChange={(e) => updateVariant("variantA", { name: e.target.value })}
+                    onChange={(e) =>
+                      updateVariant("variantA", { name: e.target.value })
+                    }
                     className="bg-gray-800 border-gray-700 text-white placeholder:text-gray-500"
                   />
                 </div>
@@ -295,7 +356,9 @@ Keep the conversation conversational and avoid sounding scripted.`
                   <Textarea
                     placeholder="Describe the approach for this variant..."
                     value={campaignData.variantA.description}
-                    onChange={(e) => updateVariant("variantA", { description: e.target.value })}
+                    onChange={(e) =>
+                      updateVariant("variantA", { description: e.target.value })
+                    }
                     className="bg-gray-800 border-gray-700 text-white placeholder:text-gray-500"
                   />
                 </div>
@@ -305,7 +368,9 @@ Keep the conversation conversational and avoid sounding scripted.`
                     <Input
                       placeholder="e.g., Professional"
                       value={campaignData.variantA.tone}
-                      onChange={(e) => updateVariant("variantA", { tone: e.target.value })}
+                      onChange={(e) =>
+                        updateVariant("variantA", { tone: e.target.value })
+                      }
                       className="bg-gray-800 border-gray-700 text-white placeholder:text-gray-500"
                     />
                   </div>
@@ -314,7 +379,9 @@ Keep the conversation conversational and avoid sounding scripted.`
                     <Input
                       placeholder="e.g., Feature-focused"
                       value={campaignData.variantA.approach}
-                      onChange={(e) => updateVariant("variantA", { approach: e.target.value })}
+                      onChange={(e) =>
+                        updateVariant("variantA", { approach: e.target.value })
+                      }
                       className="bg-gray-800 border-gray-700 text-white placeholder:text-gray-500"
                     />
                   </div>
@@ -338,7 +405,9 @@ Keep the conversation conversational and avoid sounding scripted.`
                   <Input
                     placeholder="e.g., Casual Approach"
                     value={campaignData.variantB.name}
-                    onChange={(e) => updateVariant("variantB", { name: e.target.value })}
+                    onChange={(e) =>
+                      updateVariant("variantB", { name: e.target.value })
+                    }
                     className="bg-gray-800 border-gray-700 text-white placeholder:text-gray-500"
                   />
                 </div>
@@ -347,7 +416,9 @@ Keep the conversation conversational and avoid sounding scripted.`
                   <Textarea
                     placeholder="Describe the approach for this variant..."
                     value={campaignData.variantB.description}
-                    onChange={(e) => updateVariant("variantB", { description: e.target.value })}
+                    onChange={(e) =>
+                      updateVariant("variantB", { description: e.target.value })
+                    }
                     className="bg-gray-800 border-gray-700 text-white placeholder:text-gray-500"
                   />
                 </div>
@@ -357,7 +428,9 @@ Keep the conversation conversational and avoid sounding scripted.`
                     <Input
                       placeholder="e.g., Friendly"
                       value={campaignData.variantB.tone}
-                      onChange={(e) => updateVariant("variantB", { tone: e.target.value })}
+                      onChange={(e) =>
+                        updateVariant("variantB", { tone: e.target.value })
+                      }
                       className="bg-gray-800 border-gray-700 text-white placeholder:text-gray-500"
                     />
                   </div>
@@ -366,7 +439,9 @@ Keep the conversation conversational and avoid sounding scripted.`
                     <Input
                       placeholder="e.g., Benefit-focused"
                       value={campaignData.variantB.approach}
-                      onChange={(e) => updateVariant("variantB", { approach: e.target.value })}
+                      onChange={(e) =>
+                        updateVariant("variantB", { approach: e.target.value })
+                      }
                       className="bg-gray-800 border-gray-700 text-white placeholder:text-gray-500"
                     />
                   </div>
@@ -390,7 +465,9 @@ Keep the conversation conversational and avoid sounding scripted.`
                   <Input
                     placeholder="e.g., SaaS Platform Pro"
                     value={campaignData.productInfo.name}
-                    onChange={(e) => updateProductInfo({ name: e.target.value })}
+                    onChange={(e) =>
+                      updateProductInfo({ name: e.target.value })
+                    }
                     className="bg-gray-800 border-gray-700 text-white placeholder:text-gray-500"
                   />
                 </div>
@@ -399,7 +476,9 @@ Keep the conversation conversational and avoid sounding scripted.`
                   <Input
                     placeholder="e.g., Small business owners"
                     value={campaignData.productInfo.targetAudience}
-                    onChange={(e) => updateProductInfo({ targetAudience: e.target.value })}
+                    onChange={(e) =>
+                      updateProductInfo({ targetAudience: e.target.value })
+                    }
                     className="bg-gray-800 border-gray-700 text-white placeholder:text-gray-500"
                   />
                 </div>
@@ -409,7 +488,9 @@ Keep the conversation conversational and avoid sounding scripted.`
                 <Textarea
                   placeholder="Describe what your product does and its main value proposition..."
                   value={campaignData.productInfo.description}
-                  onChange={(e) => updateProductInfo({ description: e.target.value })}
+                  onChange={(e) =>
+                    updateProductInfo({ description: e.target.value })
+                  }
                   className="bg-gray-800 border-gray-700 text-white placeholder:text-gray-500"
                   rows={3}
                 />
@@ -419,7 +500,9 @@ Keep the conversation conversational and avoid sounding scripted.`
                 <Textarea
                   placeholder="List the main features and benefits..."
                   value={campaignData.productInfo.keyFeatures}
-                  onChange={(e) => updateProductInfo({ keyFeatures: e.target.value })}
+                  onChange={(e) =>
+                    updateProductInfo({ keyFeatures: e.target.value })
+                  }
                   className="bg-gray-800 border-gray-700 text-white placeholder:text-gray-500"
                   rows={3}
                 />
@@ -429,7 +512,9 @@ Keep the conversation conversational and avoid sounding scripted.`
                 <Input
                   placeholder="e.g., Starting at $99/month"
                   value={campaignData.productInfo.pricing}
-                  onChange={(e) => updateProductInfo({ pricing: e.target.value })}
+                  onChange={(e) =>
+                    updateProductInfo({ pricing: e.target.value })
+                  }
                   className="bg-gray-800 border-gray-700 text-white placeholder:text-gray-500"
                 />
               </div>
@@ -441,13 +526,16 @@ Keep the conversation conversational and avoid sounding scripted.`
             <CardHeader>
               <CardTitle className="text-white">Supporting Files</CardTitle>
               <CardDescription className="text-gray-400">
-                Upload documents, images, or audio files to help train your voice agent
+                Upload documents, images, or audio files to help train your
+                voice agent
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="border-2 border-dashed border-gray-700 rounded-lg p-6 text-center">
                 <Upload className="h-8 w-8 text-gray-400 mx-auto mb-2" />
-                <p className="text-gray-400 mb-2">Drag and drop files here, or click to browse</p>
+                <p className="text-gray-400 mb-2">
+                  Drag and drop files here, or click to browse
+                </p>
                 <input
                   type="file"
                   multiple
@@ -458,7 +546,9 @@ Keep the conversation conversational and avoid sounding scripted.`
                 <Button
                   variant="outline"
                   className="border-gray-700 text-gray-300 hover:bg-gray-800"
-                  onClick={() => document.getElementById("file-upload")?.click()}
+                  onClick={() =>
+                    document.getElementById("file-upload")?.click()
+                  }
                 >
                   Choose Files
                 </Button>
@@ -469,12 +559,17 @@ Keep the conversation conversational and avoid sounding scripted.`
                   <Label className="text-gray-200">Uploaded Files</Label>
                   <div className="space-y-2">
                     {campaignData.supportingFiles.map((file, index) => (
-                      <div key={index} className="flex items-center justify-between p-3 bg-gray-800 rounded-lg">
+                      <div
+                        key={index}
+                        className="flex items-center justify-between p-3 bg-gray-800 rounded-lg"
+                      >
                         <div className="flex items-center gap-3">
                           {getFileIcon(file)}
                           <div>
                             <p className="text-white text-sm">{file.name}</p>
-                            <p className="text-gray-400 text-xs">{(file.size / 1024 / 1024).toFixed(2)} MB</p>
+                            <p className="text-gray-400 text-xs">
+                              {(file.size / 1024 / 1024).toFixed(2)} MB
+                            </p>
                           </div>
                         </div>
                         <Button
@@ -500,7 +595,9 @@ Keep the conversation conversational and avoid sounding scripted.`
         <div className="space-y-6 max-w-4xl mx-auto">
           <div className="text-center space-y-2">
             <h2 className="text-2xl font-bold text-white">Review & Launch</h2>
-            <p className="text-gray-400">Review your campaign configuration and generated prompts</p>
+            <p className="text-gray-400">
+              Review your campaign configuration and generated prompts
+            </p>
           </div>
 
           {/* Campaign Summary */}
@@ -516,15 +613,21 @@ Keep the conversation conversational and avoid sounding scripted.`
                 </div>
                 <div>
                   <Label className="text-gray-400">Campaign Type</Label>
-                  <p className="text-white font-medium capitalize">{campaignData.type} Campaign</p>
+                  <p className="text-white font-medium capitalize">
+                    {campaignData.type} Campaign
+                  </p>
                 </div>
                 <div>
                   <Label className="text-gray-400">Product</Label>
-                  <p className="text-white font-medium">{campaignData.productInfo.name}</p>
+                  <p className="text-white font-medium">
+                    {campaignData.productInfo.name}
+                  </p>
                 </div>
                 <div>
                   <Label className="text-gray-400">Supporting Files</Label>
-                  <p className="text-white font-medium">{campaignData.supportingFiles.length} files uploaded</p>
+                  <p className="text-white font-medium">
+                    {campaignData.supportingFiles.length} files uploaded
+                  </p>
                 </div>
               </div>
             </CardContent>
@@ -576,13 +679,22 @@ Keep the conversation conversational and avoid sounding scripted.`
             <CardHeader>
               <CardTitle className="text-white">Ready to Launch</CardTitle>
               <CardDescription className="text-gray-300">
-                Your campaign is configured and ready to start. You can launch it now or save as draft.
+                Your campaign is configured and ready to start. You can launch
+                it now or save as draft.
               </CardDescription>
             </CardHeader>
             <CardContent>
               <div className="flex gap-4">
-                <Button className="bg-orange-500 hover:bg-orange-600 text-white flex-1">🚀 Launch Campaign</Button>
-                <Button variant="outline" className="border-gray-700 text-gray-300 hover:bg-gray-800">
+                <Button
+                  onClick={onLaunchCampaign}
+                  className="bg-orange-500 hover:bg-orange-600 text-white flex-1"
+                >
+                  🚀 Launch Campaign
+                </Button>
+                <Button
+                  variant="outline"
+                  className="border-gray-700 text-gray-300 hover:bg-gray-800"
+                >
                   Save as Draft
                 </Button>
               </div>
@@ -613,5 +725,5 @@ Keep the conversation conversational and avoid sounding scripted.`
         </Button>
       </div>
     </div>
-  )
+  );
 }

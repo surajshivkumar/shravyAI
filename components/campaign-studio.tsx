@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Play,
   Pause,
@@ -33,6 +33,7 @@ import { SidebarTrigger } from "@/components/ui/sidebar";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Progress } from "@/components/ui/progress";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { useCampaignStore } from "@/store";
 
 interface CampaignStudioProps {
   campaignId: string;
@@ -156,10 +157,37 @@ export function CampaignStudio({ campaignId }: CampaignStudioProps) {
   const [isLive, setIsLive] = useState(true);
   const [selectedTab, setSelectedTab] = useState("overview");
   const [refreshing, setRefreshing] = useState(false);
+  console.log(campaignId, "ID");
+  const [seconds, setSeconds] = useState(45345);
+  const campaignsData = useCampaignStore((state) => state.campaigns);
+  const data = campaignsData.filter((campaign) => campaign.id === campaignId);
+  const filteredData = data[0];
+  const [isRunning, setIsRunning] = useState<boolean>(true); // Timer running by default
 
+  console.log(data, "CAMPAIGN");
   const handleRefresh = () => {
     setRefreshing(true);
     setTimeout(() => setRefreshing(false), 1000);
+  };
+  useEffect(() => {
+    let intervalId: NodeJS.Timeout;
+
+    if (isRunning) {
+      intervalId = setInterval(() => {
+        setSeconds((prev) => prev + 1);
+      }, 1000);
+    }
+
+    return () => clearInterval(intervalId);
+  }, [isRunning]);
+  const formatTime = (totalSeconds: number): string => {
+    const hrs = String(Math.floor(totalSeconds / 3600)).padStart(2, "0");
+    const mins = String(Math.floor((totalSeconds % 3600) / 60)).padStart(
+      2,
+      "0"
+    );
+    const secs = String(totalSeconds % 60).padStart(2, "0");
+    return `${hrs}:${mins}:${secs}`;
   };
 
   const getStatusColor = (status: string) => {
@@ -200,7 +228,7 @@ export function CampaignStudio({ campaignId }: CampaignStudioProps) {
           <div>
             <div className="flex items-center gap-3">
               <h1 className="text-3xl font-bold text-white">
-                {campaignData.name}
+                {filteredData.name}
               </h1>
               <Badge className="bg-green-500/20 text-green-400 border-green-500/30 flex items-center gap-1">
                 <Activity className="h-3 w-3" />
@@ -242,7 +270,10 @@ export function CampaignStudio({ campaignId }: CampaignStudioProps) {
             Settings
           </Button>
           <Button
-            onClick={() => setIsLive(!isLive)}
+            onClick={() => {
+              setIsRunning((prev) => !prev);
+              setIsLive(!isLive);
+            }}
             className={
               isLive
                 ? "bg-red-500 hover:bg-red-600"
@@ -291,7 +322,9 @@ export function CampaignStudio({ campaignId }: CampaignStudioProps) {
             </div>
             <div className="text-right">
               <p className="text-gray-400 text-sm">Campaign Runtime</p>
-              <p className="text-white font-mono text-lg">12:34:56</p>
+              <p className="text-white font-mono text-lg">
+                {formatTime(seconds)}
+              </p>
             </div>
           </div>
         </CardContent>

@@ -98,7 +98,7 @@ const campaignData = [
 export function DashboardContent() {
   const [selectedTimeframe, setSelectedTimeframe] = useState("7d");
   const router = useRouter();
-  const handleNewCampaign = async (e) => {
+  const handleNewCampaign = async () => {
     router.push("/dashboard/campaigns/new");
   };
 
